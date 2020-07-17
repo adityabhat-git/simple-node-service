@@ -38,6 +38,7 @@ Believe me!!! It is the best IDE to work with. You will enjoy it. You can downlo
     - cors - for Cross Origin Resource Sharing. Details of this are present on the url - https://www.npmjs.com/package/cors .
     - express - Details on Url - https://www.npmjs.com/package/express .
     - mongojs - Details on Url - https://www.npmjs.com/package/mongojs .
+    - morgan  - Details on Url - https://www.npmjs.com/package/morgan  .
     
 * To run this node js service you can have a nodemon installed on your machine. For more details of nodemon , you can check the url - https://www.npmjs.com/package/nodemon . You can install it globally or add it as a development dependency 
     - To add it globally - you can use command **npm install -g nodemon**

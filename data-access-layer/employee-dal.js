@@ -17,9 +17,7 @@ class EmployeeDAL{
                     reject(err);
                     return;
                 }
-                else{
-                    resolve(docs);
-                }
+                resolve(docs);
             });
         });
     }
@@ -31,10 +29,9 @@ class EmployeeDAL{
             db.employees.findOne({employeeId : empId},(err,doc)=>{
                 if(err){
                     reject(err);
+                    return;
                 }
-                else{
-                    resolve(doc);
-                }
+                resolve(doc);
             });
         });
         
@@ -46,7 +43,7 @@ class EmployeeDAL{
             employeeId : Number.parseInt(employee.employeeId),
             zipcode: Number.parseInt(employee.zipcode),
             avatar:"images/noimage.png"
-        }
+        };
 
         return new Promise((resolve,reject)=>{
             db.employees.insert(empObject,(err,doc)=>{

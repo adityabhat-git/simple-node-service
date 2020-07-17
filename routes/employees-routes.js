@@ -8,7 +8,7 @@ employeesRoutes.get("/",(request,response)=>{
     console.log(`Get All Employees request - ${request}`);
     employeesDalObj.getAllEmployees().then(
         events => response.json(events),
-        reason => response.send(reason)
+        reason => response.send(reason).status(404)
     );
 });
 
@@ -19,7 +19,7 @@ employeesRoutes.get("/:id",(request,response)=>{
 
     employeesDalObj.getEmployeeDetails(employeeId).then(
         employee => response.json(employee),
-        reason => response.send(reason)
+        reason => response.send(reason).status(404)
     );
 });
 

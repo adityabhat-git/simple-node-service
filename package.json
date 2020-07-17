@@ -2,7 +2,7 @@
   "name": "simple-node-service",
   "version": "1.0.0",
   "description": "A simple service using Node JS",
-  "main": "service.js",
+  "main": "simpleNodeService.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +21,7 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongojs": "^3.1.0"
+    "mongojs": "^3.1.0",
+    "morgan": "^1.10.0"
   }
 }

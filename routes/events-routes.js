@@ -8,7 +8,7 @@ eventsRoutes.get("/",(request,response)=>{
     console.log(`Get All Events Request - ${request}`);
     eventsDalObject.getAllEvents().then(
         events => response.json(events),
-        reason => response.send(reason)
+        reason => response.send(reason).status(404)
     );
 });
 
@@ -18,7 +18,7 @@ eventsRoutes.get("/:id",(request,response)=>{
     let eventId = Number.parseInt(request.params.id);
     eventsDalObject.getEventDetails(eventId).then(
         event => response.json(event),
-        reason => response.send(reason)
+        reason => response.send(reason).status(404)
     );
 });
 
@@ -28,9 +28,9 @@ eventsRoutes.post("/",(request,response)=>{
     let eventDetails = request.body;
 
     eventsDalObject.addnewEvent(eventDetails).then(
-        event => {
-            response.json(event);
-            console.log(`New Event Added - ${event}`);
+        newEvent => {
+            response.json(newEvent);
+            console.log(`New Event Added - ${newEvent}`);
         },
         reason => response.send(reason)
     );

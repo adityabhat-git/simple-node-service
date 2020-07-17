@@ -17,9 +17,7 @@ class EventDAL{
                     reject(err);
                     return;
                 }
-                else{
-                    resolve(docs);
-                }
+                resolve(docs);
             });
         });
     }
@@ -33,9 +31,7 @@ class EventDAL{
                     reject(err);
                     return;
                 }
-                else{
-                    resolve(doc);
-                }
+                resolve(doc);
             });
         });
     }
@@ -48,8 +44,8 @@ class EventDAL{
             endDate: new Date(event.endDate).toISOString(),
             fees: Number.parseInt(event.fees),
             seatsFilled: Number.parseInt(event.seatsFilled),
-            logo: "images/noimg.png"
-        }
+            logo: "images/noimage.png"
+        };
 
         return new Promise((resolve,reject)=>{
             db.employees.insert(eventObj,(err,doc)=>{
@@ -61,7 +57,7 @@ class EventDAL{
                     resolve(doc);
                     console.log(`New Event Added :- ${eventObj}`);
                 }
-            })
+            });
         });
     }
 }
