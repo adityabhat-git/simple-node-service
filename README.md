@@ -4,7 +4,7 @@ A simple service using Node JS
 This would be a simple Web API application created using Node and Express JS.
 
 
-Using Mock Data would give u a clear picture of DB artifacts. You can us Mongo/SQL/ or any other DB with this project.
+Using **Mock Data** would give u a clear picture of DB artifacts. You can us Mongo/SQL/ or any other DB with this project.
 
 The mock data provided can be used to create data of your own.
 
