@@ -1,0 +1,20 @@
+{
+  "name": "simple-node-service",
+  "version": "1.0.0",
+  "description": "A simple service using Node JS",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityabhat-git/simple-node-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityabhat-git/simple-node-service/issues"
+  },
+  "homepage": "https://github.com/adityabhat-git/simple-node-service#readme"
+}
