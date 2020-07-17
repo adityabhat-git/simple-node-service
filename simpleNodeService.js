@@ -16,5 +16,3 @@ app.use("/api/employees",employeesRoutes); // for routing to employees routes
 app.use("/api/events",eventsRoutes); //for routing to events routes
 
 app.listen(PORT,()=>console.log(`Server is listening to PORT : ${PORT}`));
-
-
