@@ -18,12 +18,12 @@ Believe me!!! It is the best IDE to work with. You will enjoy it.
 
 4) Make sure that post cloning you are having "package.json" file present in your local repo( the place where you would clone this repository)
     a) In case you are not aware of how to clone a repository from GIT HUB, please follow these simple guidelines - 
-        i) Download and install GIT SCM from the URL - https://git-scm.com/ .
-        ii) After installation open the folder/drive where you want to clone your repo. In my case I am using E:\ drive.
-        iii) Right click on it and you would be able to see two options - "Git GUI here" and "Git Bash here". Click on the second option (Git Bash here).
-        iv) Now when the bash window is open with the folder being the root write the following command to clone the repo to that folder.
+        \ni) Download and install GIT SCM from the URL - https://git-scm.com/ .
+        \nii) After installation open the folder/drive where you want to clone your repo. In my case I am using E:\ drive.
+        \niii) Right click on it and you would be able to see two options - "Git GUI here" and "Git Bash here". Click on the second option (Git Bash here).
+        \niv) Now when the bash window is open with the folder being the root write the following command to clone the repo to that folder.
             git clone "repoUrl" . for example - git clone https://github.com/adityabhat-git/simple-node-service.git 
-        v) Now you are have cloned the repo and ready with the code.
+        \nv) Now you are have cloned the repo and ready with the code.
 
 5) Open CMD on the folder where you have cloned the repo and type "code ." . This would open your repo in VS Code.
 
