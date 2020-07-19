@@ -5,6 +5,7 @@ const morgan = require("morgan"); //require morgan
 
 const employeesRoutes = require("./routes/employees-routes"); // getting the employees routes from the routes
 const eventsRoutes = require("./routes/events-routes"); //getting the events routes from the routes
+const securityRoutes = require("./routes/security-routes"); //getting the security routes from the routes
 
 const PORT = process.env.PORT || 9090; // port which you want to run the application to be given after '||' .
 
@@ -16,5 +17,6 @@ app.use(morgan("dev")); // for logging in terminal
 
 app.use("/api/employees",employeesRoutes); // for routing to employees routes
 app.use("/api/events",eventsRoutes); //for routing to events routes
+app.use("/api/auth",securityRoutes);//for routing to security routes
 
 app.listen(PORT,()=>console.log(`Simple Node JS service(API) is listening on PORT : ${PORT}`));

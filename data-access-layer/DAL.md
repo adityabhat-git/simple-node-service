@@ -10,3 +10,7 @@ This is the DAL Layer. Here we have created two js classes
         - **getAllEmployees()** - this would fetch all the employees which are configured there in the Mongo DB instance on your local.
         - **getEmployeeDetails(employeeId)** - this would fetch a single employee object with the provided employeeId.
         - **addNewEmployee(employee)** - this would a new document (record) to the employees collection in the mongo db.
+
+* **Security Service**
+    * This service has one method
+        - **checkCredentials(email,password)** - this would check the credentials passed in the form with those present in the users collection in mongo db, and if authenticated , will send a authenticated response with a webtoken , which indicates that our session is valid only till the token is valid.
