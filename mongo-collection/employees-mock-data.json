@@ -1,0 +1,45 @@
+[{
+  "employeeId": 2370,
+  "employeeName": "Pravinkumar R. D.",
+  "address": "Suncity, A8/404",
+  "city": "Pune",
+  "zipcode": 411051,
+  "phone": "+91 23892893",
+  "email": "pravin.r.d@abc.com",
+  "skillSets": "Microsoft/JavaScript",
+  "country": "India",
+  "avatar": "images/noimage.png"
+},{
+  "employeeId": 2372,
+  "employeeName": "Manish Kaushik",
+  "address": "Mooncity, Z8/404",
+  "city": "Raipur",
+  "zipcode": 459899,
+  "phone": "+91 9039039090",
+  "email": "manish.kaushik@abc.com",
+  "skillSets": "DBA",
+  "country": "India",
+  "avatar": "images/noimage.png"
+},{
+  "employeeId": 2374,
+  "employeeName": "Alisha C.",
+  "address": "Mooncity, B8/404",
+  "city": "Mumbai",
+  "zipcode": 510512,
+  "phone": "+91 30003000",
+  "email": "alisha.c@abc.com",
+  "skillSets": "Java",
+  "country": "India",
+  "avatar": "images/noimage.png"
+},{
+  "employeeId": 2376,
+  "employeeName": "Aditya B.",
+  "address": "Western Avenue, A/903",
+  "city": "Pune",
+  "zipcode": 411057,
+  "phone": "+91 9167735698",
+  "email": "aditya.b@abc.com",
+  "skillSets": "Dot Net",
+  "country": "India",
+  "avatar": "images/noimage.png"
+}]

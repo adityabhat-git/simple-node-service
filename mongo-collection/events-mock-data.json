@@ -1,0 +1,101 @@
+[{
+  "eventId": 1001,
+  "eventCode": "SEMJQ3",
+  "eventName": "Seminar on jQuery 3.x",
+  "description": "Seminar will discuss all the new features of jQuery 3.x",
+  "startDate": {
+    "$date": "2020-07-03T03:51:05.760Z"
+  },
+  "endDate": {
+    "$date": "2020-07-03T03:51:05.760Z"
+  },
+  "fees": 800,
+  "seatsFilled": 70,
+  "logo": "images/jq3.png"
+},{
+  "eventId": 1002,
+  "eventCode": "SEMNG1",
+  "eventName": "Seminar on Angular JS 1.5.x",
+  "description": "Seminar will discuss all the new features of Angular JS 1.5.x",
+  "startDate": {
+    "$date": "2020-07-03T03:51:05.760Z"
+  },
+  "endDate": {
+    "$date": "2020-07-03T03:51:05.760Z"
+  },
+  "fees": 600,
+  "seatsFilled": 50,
+  "logo": "images/ng1.png"
+},{
+  "eventId": 1003,
+  "eventCode": "SEMNG2",
+  "eventName": "Seminar on Angular 2.x",
+  "description": "Seminar will discuss all the new features of Angular 2.x",
+  "startDate": {
+    "$date": "2020-07-03T03:51:05.760Z"
+  },
+  "endDate": {
+    "$date": "2020-07-03T03:51:05.760Z"
+  },
+  "fees": 1000,
+  "seatsFilled": 80,
+  "logo": "images/ng2.png"
+},{
+  "eventId": 1004,
+  "eventCode": "SEMNG4",
+  "eventName": "Seminar on Angular 4.x",
+  "description": "Seminar will discuss all the new features of Angular 4.x",
+  "startDate": {
+    "$date": "2020-07-03T03:51:05.760Z"
+  },
+  "endDate": {
+    "$date": "2020-07-03T03:51:05.760Z"
+  },
+  "fees": 1000,
+  "seatsFilled": 76,
+  "logo": "images/ng2.png"
+},{
+  "eventId": 1005,
+  "eventCode": "SEMBS3",
+  "eventName": "Seminar on Bootstrap 3.x",
+  "description": "Seminar will discuss all the new features of Bootstrap 3.x",
+  "startDate": {
+    "$date": "2020-07-03T03:51:05.760Z"
+  },
+  "endDate": {
+    "$date": "2020-07-03T03:51:05.760Z"
+  },
+  "fees": 500,
+  "seatsFilled": 34,
+  "logo": "images/bs3.png"
+},{
+  "eventId": 1006,
+  "eventCode": "NG9TRN",
+  "eventName": "Angular 9 training",
+  "description": "4-days angular training",
+  "startDate": "2020-07-20T00:00:00.000Z",
+  "endDate": "2020-07-23T00:00:00.000Z",
+  "fees": 1200,
+  "seatsFilled": 56,
+  "logo": "images/noimage.png"
+},{
+  "eventId": 1007,
+  "eventCode": "RECTRN",
+  "eventName": "React Training ",
+  "description": "4 days hands-on training",
+  "startDate": "2020-07-20T00:00:00.000Z",
+  "endDate": "2020-07-23T00:00:00.000Z",
+  "fees": 1500,
+  "seatsFilled": 89,
+  "logo": "images/noimage.png"
+},{
+  "eventId": 1008,
+  "eventCode": "NODETRN",
+  "eventName": "Node JS Training",
+  "description": "4 days hands-on training",
+  "startDate": "2020-07-20T00:00:00.000Z",
+  "endDate": "2020-07-23T00:00:00.000Z",
+  "fees": 2000,
+  "seatsFilled": 115,
+  "logo": "images/noimage.png"
+}]
