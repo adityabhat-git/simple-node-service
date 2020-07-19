@@ -52,22 +52,22 @@ Believe me!!! It is the best IDE to work with. You will enjoy it. You can downlo
 
 * **EMPLOYEE API**
     * http://localhost:9090/api/employees (_GET METHOD_)
-    ![Get All Employees](https://github.com/adityabhat-git/simple-node-service/tree/master/test-result-images/GetAllEmployees.png)
+    ![Get All Employees](https://github.com/adityabhat-git/simple-node-service/blob/master/test-result-images/GetAllEmployees.png)
 
     * http://localhost:9090/api/employees/2374 (_GET METHOD_)
-    ![Get Employee Details](https://github.com/adityabhat-git/simple-node-service/tree/master/test-result-images/GetEmployeeDetails.png)
+    ![Get Employee Details](https://github.com/adityabhat-git/simple-node-service/blob/master/test-result-images/GetEmployeeDetails.png)
 
     * http://localhost:9090/api/employees (_POST METHOD_)
-    ![Add a new Employee](https://github.com/adityabhat-git/simple-node-service/tree/master/test-result-images/AddNewEmployee.png)
+    ![Add a new Employee](https://github.com/adityabhat-git/simple-node-service/blob/master/test-result-images/AddNewEmployee.png)
 
 
 * **EVENTS API**
     * http://localhost:9090/api/events (_GET METHOD_)
-    ![Get All Events](https://github.com/adityabhat-git/simple-node-service/tree/master/test-result-images/GetAllEvents.png)
+    ![Get All Events](https://github.com/adityabhat-git/simple-node-service/blob/master/test-result-images/GetAllEvents.png)
 
     * http://localhost:9090/api/events/1004 (_GET METHOD_)
-    ![Get Event Details](https://github.com/adityabhat-git/simple-node-service/tree/master/test-result-images/GetEventDetails.png)
+    ![Get Event Details](https://github.com/adityabhat-git/simple-node-service/blob/master/test-result-images/GetEventDetails.png)
 
     * http://localhost:9090/api/events (_POST METHOD_)
-    ![Add a new Event](https://github.com/adityabhat-git/simple-node-service/tree/master/test-result-images/AddNewEvent.png)
+    ![Add a new Event](https://github.com/adityabhat-git/simple-node-service/blob/master/test-result-images/AddNewEvent.png)
 
