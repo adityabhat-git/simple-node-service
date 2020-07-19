@@ -48,7 +48,7 @@ class EventDAL{
         };
 
         return new Promise((resolve,reject)=>{
-            db.employees.insert(eventObj,(err,doc)=>{
+            db.events.insert(eventObj,(err,doc)=>{
                 if(err){
                     reject(err);
                     return;

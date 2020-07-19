@@ -48,3 +48,26 @@ Believe me!!! It is the best IDE to work with. You will enjoy it. You can downlo
     - In package.json , you would be able to see the node named as **"main":"service.js"**. You can change its value to **"main":"simpleNodeService.js"** .After changing it we can run the command "nodemon" , which would make your service up and running.
     - If you dont want to touch the package.json file , we can directly run the command **"nodemon simpleNodeService"** .
     
+* Test Results of the API methods - 
+
+* **EMPLOYEE API**
+    * http://localhost:9090/api/employees (_GET METHOD_)
+    ![Get All Employees](https://github.com/adityabhat-git/simple-node-service/tree/master/test-result-images/GetAllEmployees.png)
+
+    * http://localhost:9090/api/employees/2374 (_GET METHOD_)
+    ![Get Employee Details](https://github.com/adityabhat-git/simple-node-service/tree/master/test-result-images/GetEmployeeDetails.png)
+
+    * http://localhost:9090/api/employees (_POST METHOD_)
+    ![Add a new Employee](https://github.com/adityabhat-git/simple-node-service/tree/master/test-result-images/AddNewEmployee.png)
+
+
+* **EVENTS API**
+    * http://localhost:9090/api/events (_GET METHOD_)
+    ![Get All Events](https://github.com/adityabhat-git/simple-node-service/tree/master/test-result-images/GetAllEvents.png)
+
+    * http://localhost:9090/api/events/1004 (_GET METHOD_)
+    ![Get Event Details](https://github.com/adityabhat-git/simple-node-service/tree/master/test-result-images/GetEventDetails.png)
+
+    * http://localhost:9090/api/events (_POST METHOD_)
+    ![Add a new Event](https://github.com/adityabhat-git/simple-node-service/tree/master/test-result-images/AddNewEvent.png)
+
